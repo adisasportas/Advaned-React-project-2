@@ -1,0 +1,17 @@
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imageLink {
+    width: 24%;
+    margin: 0.5%;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
